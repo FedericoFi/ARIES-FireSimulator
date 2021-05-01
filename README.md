@@ -32,19 +32,19 @@ The mathematical model and the logic of the algorithms implemented are currently
 
 examples of simulation outputs:
 
-simulated fire propagation and drone formation surveillance
+Simulated fire propagation and drone formation surveillance
 
-![simulated fire propagation and drone formation surveillance](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/map.jpeg)
+![simulated fire propagation and drone formation surveillance](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/Images/map.jpeg)
 
-heatmap of fire spreading probability
+Heatmap of fire spreading probability
 
-![heatmap of fire spreading probability](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/pburn.jpeg)
+![heatmap of fire spreading probability](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/Images/pburn.jpeg)
 
-changes in the fire risk-aware Vornoi partition of the monitored area depending on wind direction ( from 0° to 360°)
+Changes in the fire risk-aware Vornoi partition of the monitored area depending on wind direction ( from 0° to 360°)
 
-![changes in the fire risk-aware Vornoi partition of the monitored area depending on wind direction ( from 0° to 360°)](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/voronoi.gif)
+![changes in the fire risk-aware Vornoi partition of the monitored area depending on wind direction ( from 0° to 360°)](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/Images/voronoi.gif)
 
 Visualization of the fire risk-aware Voronoi partition of the area 
 
-![Fire risk-aware Voronoi partition of thearea visualization](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/partitions.jpg)
+![Fire risk-aware Voronoi partition of thearea visualization](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/Images/partitions.jpg)
 
