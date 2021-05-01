@@ -3,9 +3,9 @@ close all;
 clc;
 
 %===========    File section     ===========
-name_file='Data/10m-Resolution_Estrazione_punti_roio.csv';
+name_file='Data/terrain_altitude.csv';
 name_file_NDVI='Data/NDVI_factor.csv';
-name_file_colors='Data/colori4classi.txt';
+name_file_colors='Data/colors.txt';
 name_file_output='fire_simulation.mat';
 name_file_output_tensor='fire_simulation_tensor.mat';
 
