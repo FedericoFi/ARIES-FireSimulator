@@ -30,7 +30,7 @@ _The last two parameters are stricly related to the regular grid point on GIS so
 A full documentation of the functionalities of this simulator and its user manual are currenlty being developed.
 The mathematical model and the logic of the algorithms implemented are currently under review on for publication on an international journal.
 
-examples of simulation outputs:
+Examples of simulation outputs:
 
 Simulated fire propagation and drone formation surveillance
 
