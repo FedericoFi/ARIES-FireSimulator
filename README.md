@@ -8,8 +8,13 @@ To run the simulation it is necessary to:
  - 
 examples of simulation outputs:
 
+simulated fire propagation and drone formation surveillance
 ![simulated fire propagation and drone formation surveillance](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/map.jpeg)
 
+heatmap of fire spreading probability:
 ![heatmap of fire spreading probability](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/pburn.jpeg)
 
+changes in the fire risk-aware Vornoi partition of the monitored area depending on wind direction ( from 0° to 360°):
 ![changes in the fire risk-aware Vornoi partition of the monitored area depending on wind direction ( from 0° to 360°)](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/voronoi.gif)
+
+
