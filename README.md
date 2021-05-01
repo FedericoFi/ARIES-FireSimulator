@@ -7,7 +7,7 @@ To run the simulation it is necessary to:
  - Download the NDVI data and export it with GIS
 
 
-A full documentation of the functionalities of this simulator is currenlty being developed.
+A full documentation of the functionalities of this simulator and its user manual are currenlty being developed.
 The mathematical model and the logic of the algorithms implemented are currently under review on for publication on an international journal.
 
 examples of simulation outputs:
