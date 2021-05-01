@@ -31,10 +31,12 @@ plot_bitmap_total_centroid=1;   %plot centroids on total bitmap
 plot_bitmap_total_line=1;       %plot line division in total bitmap
 plot_NDVI=0;                    %plot NDVI surface
 plot_voronoi=1;                 %plot Voronoi diagram
+plot_heatMap=0;
+plot_ca_voronoi=0;
 plot_simulation=1;
 
 
-iterazioni=50;                   %Simulation iterations
+iterazioni=2;                   %Simulation iterations
 
 
 vector_conversion=1;
@@ -141,21 +143,28 @@ hold off;
 
 centroidi = computeCentroidi(cols,rows,horizontal_division,vertical_division,...
                                     matriceNDVI_classi,density,matrice_punti,...
-                                    plot_macro_cell,plot_bitmap_total,plot_bitmap_total_centroid,plot_bitmap_total_line,...
+                                    plot_macro_cell,plot_bitmap_total,plot_bitmap_total_centroid,plot_bitmap_total_line,plot_heatMap,...
                                     colors,cluster_NDVI,probability_vector_veg,...
                                     probability_vector_den,matrice_slope,matrice_vento,p_h,a);
 
                                 
-if plotCen3D
+if plotCen3D && plot_NDVI
     [n,m]=size(centroidi);
     for i=1:n
         quota=matrice_punti(round(centroidi(i,1)),round(centroidi(i,2)));
-        figure(1);
-        plot3(centroidi(i,1),centroidi(i,2),quota+5,'Marker','.','MarkerSize',50,'Color','black');
+        figure(2);
+        plot3(centroidi(i,1),centroidi(i,2),quota+5,'Marker','.','MarkerSize',35,'Color','red');
         hold on;
     end
     hold off;
 end
+
+if plot_ca_voronoi
+    [matrice_classi_centroidi,elementi_classe] = assign2centroid(centroidi,cols,rows);
+    figure(34);
+    surf(matrice_punti',matrice_classi_centroidi');
+end
+
 
 
 if save_file

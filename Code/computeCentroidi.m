@@ -1,6 +1,6 @@
 function [centroidi,mat_pBurn] = computeCentroidi(righe,colonne,horizontal_cell,vertical_cell,...
                                                 imSeg,matrice_densita,matrice_punti,...
-                                                plot_single_cell,plot_bitmap_total,plot_bitmap_total_centroid,plot_bitmap_total_line,...
+                                                plot_single_cell,plot_bitmap_total,plot_bitmap_total_centroid,plot_bitmap_total_line,plot_heatMap,...
                                                 colori,...
                                                 cluster,probability_vector_veg,probability_vector_den,pendenza,vento,p_h,a)
 
@@ -158,4 +158,12 @@ function [centroidi,mat_pBurn] = computeCentroidi(righe,colonne,horizontal_cell,
         title('Total bitMap');
         hold off;
     end
+    
+    if plot_heatMap
+        figure(immagine);
+        colormap turbo;
+        imagesc(mat_pBurn);
+        title('HeatMap')
+    end
+
 end
