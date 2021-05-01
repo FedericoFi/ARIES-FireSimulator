@@ -24,6 +24,7 @@ changes in the fire risk-aware Vornoi partition of the monitored area depending 
 
 ![changes in the fire risk-aware Vornoi partition of the monitored area depending on wind direction ( from 0° to 360°)](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/voronoi.gif)
 
-Fire risk-aware Voronoi partition of thearea visualization
+Visualization of the fire risk-aware Voronoi partition of the area 
+
 ![Fire risk-aware Voronoi partition of thearea visualization](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/partitions.jpg)
 
