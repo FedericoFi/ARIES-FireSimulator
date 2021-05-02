@@ -4,24 +4,24 @@
 This repository contains the first version of the fire propagation simulator developed in the scope of the ESA funded project ARIES.
 To run the simulation it is necessary to:
 
-1. Download the terrain altitude data and export **(.csv)** it with GIS.   Filename: **terrain_altitude**.csv   
-2. Download the NDVI data and export **(.csv)** it with GIS. Filename: **NDVI_factor**.csv
-3. Export **.txt** from GIS the color map assigned by software to each NDVI class. Filename: **colors**.txt
+1. Download the terrain altitude data and export it as **(.csv)**  with GIS.   Filename: **terrain_altitude**.csv   
+2. Download the NDVI data and export its **(.csv)** with GIS. Filename: **NDVI_factor**.csv
+3. Export as **.txt** from GIS the color map assigned by the software to each NDVI class. Filename: **colors**.txt
 
 To run: launch the **_mainFire.m_**  
 It present some setting variables such as:
 - *iterations*: set the number of iterations for fire simulation
-- *cluster_NDVI*: the number of class on which is divided the NDVI values, in GIS software.
+- *cluster_NDVI*: the number of levels on which the NDVI is quantised, in GIS software.
 - *plot_voronoi*: if set to **1** plot the Voronoi partition of the area
 - *plot_simulation*: if set to **1** plot the environment status during simulation
 - *plot_wind*: if set to **1** plot the wind direction
 - *plot_bitmap_total*: if set to **1** plot the bitmap of the entire area
-- *cell_lenght*: describe the real lenght of the square size
-- *horizontal_division*: is the number of horizontal elements into which the area will be divided
-- *vertical_division*: is the number of vertical elements into which the area will be divided
+- *cell_lenght*: describe the real lenght of the square cell size
+- *horizontal_division*: is the number of horizontal elements (macro-cells) into which the area will be divided
+- *vertical_division*: is the number of vertical elements (macro-cells) into which the area will be divided
 - *wind_angle*: describe the wind direction
 - *wind_vel*: describe the wind velocity
-- *probability_vector_veg*: the burn probability associate to vegetation healt status, which dimension is equal to [1 x cluster_NDVI]
+- *probability_vector_veg*: the burn probability associate to vegetation health status, which dimension is equal to [1 x cluster_NDVI]
 - *rows*: the number of rows of the model. 
 - *cols*: the number of cols of the model.  
 
