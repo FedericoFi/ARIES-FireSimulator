@@ -36,6 +36,10 @@ Simulated fire propagation and drone formation surveillance
 
 ![simulated fire propagation and drone formation surveillance](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/Images/map.jpeg)
 
+Animated mockup simulation (increased fire spread velocity)
+
+![mockup simulation](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/Images/GIF_07-05-2021_2.gif)
+
 Heatmap of fire spreading probability
 
 ![heatmap of fire spreading probability](https://github.com/FedericoFi/ARIES-FireSimulator/blob/main/Images/pburn.jpeg)
