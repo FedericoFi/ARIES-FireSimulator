@@ -36,7 +36,7 @@ plot_ca_voronoi=0;
 plot_simulation=1;
 
 
-iterazioni=2;                   %Simulation iterations
+iterazioni=100;                   %Simulation iterations
 
 
 vector_conversion=1;
@@ -169,9 +169,9 @@ end
 
 if save_file
     if allocate_tensor
-        save(name_file_output_tensor,'tensore','centroidi','startF','stopF','matrice_punti','matriceNDVI_classi','cell_lenght','suddivisione_verticale','suddivisione_orizzontale','wind_angle','wind_vel');
+        save(name_file_output_tensor,'tensore','centroidi','startF','stopF','matrice_punti','matriceNDVI_classi','cell_lenght','vertical_division','horizontal_division','wind_angle','wind_vel');
     else
-        save(name_file_output,'centroidi','startF','stopF','matrice_punti','matriceNDVI_classi','cell_lenght','suddivisione_verticale','suddivisione_orizzontale','wind_angle','wind_vel');
+        save(name_file_output,'centroidi','startF','stopF','matrice_punti','matriceNDVI_classi','cell_lenght','vertical_division','horizontal_division','wind_angle','wind_vel');
     end
 end
 
