@@ -1,5 +1,5 @@
 function [foresta,accensione,spegnimento]=simStep(righe,colonne,old_foresta,vegetazione,...
-                                                                fittume,pendenza,vento,prob_cont_burn,...
+                                                                fit,pendenza,vento,prob_cont_burn,...
                                                                 accensione,spegnimento,iterazione,probability_vector_veg,...
                                                                 probability_vector_den,p_h,a)
     
@@ -24,7 +24,7 @@ function [foresta,accensione,spegnimento]=simStep(righe,colonne,old_foresta,vege
             
             if old_foresta(r,c)==2
                 vicini=old_foresta(r-1:r+1,c-1:c+1);
-                foresta(r,c)=checkFire(r,c,vicini,vegetazione,fittume,pendenza,vento,probability_vector_veg,probability_vector_den,p_h,a);
+                foresta(r,c)=checkFire(r,c,vicini,vegetazione,fit,pendenza,vento,probability_vector_veg,probability_vector_den,p_h,a);
                 if foresta(r,c)==3           
                     if accensione(r,c)==0
                         accensione(r,c)=iterazione;

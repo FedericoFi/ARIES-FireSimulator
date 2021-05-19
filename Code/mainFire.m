@@ -36,7 +36,7 @@ plot_ca_voronoi=0;
 plot_simulation=1;
 
 
-iterazioni=100;                   %Simulation iterations
+iterazioni=50;                   %Simulation iterations
 
 
 vector_conversion=1;
