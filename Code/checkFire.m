@@ -1,7 +1,7 @@
 function stato = checkFire(riga,colonna,vicini,vegetazione,fit,pendenza,vento,probability_vector_veg,probability_vector_den,p_h,a)
     NDVI_class=vegetazione(riga,colonna);
     p_veg=probability_vector_veg(NDVI_class);
-    
+
     density=fit(riga,colonna);
     p_den=probability_vector_den(density);
  
