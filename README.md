@@ -1,7 +1,10 @@
+![image](https://github.com/FedericoFi/ARIES-FireSimulator/assets/29597412/b7634b16-43f3-4fd3-b13a-868f853ed8c5)
+
+
 # Fire Simulator and drone monitoring system for the ARIES project
 
+The development of this software has been partially supported by the EU within the FSE REACT-EU, PON Ricerca e Innovazione 2014-2020, programme and by the ESA through the ARIES project.
 
-This repository contains the first version of the fire propagation simulator developed in the scope of the ESA funded project ARIES.
 To run the simulation it is necessary to:
 
 1. Download the terrain altitude data and export it as **(.csv)**  with GIS.   Filename: **terrain_altitude**.csv   
