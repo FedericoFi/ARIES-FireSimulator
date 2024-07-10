@@ -6,3 +6,4 @@ Call it: ***fire_simulation_tensor.mat***
 
 To show monitoring simulation results:
 1. Run **plot_data_SURFACE_FIRE.m**
+
