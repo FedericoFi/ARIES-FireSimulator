@@ -1,6 +1,5 @@
 ![image](https://github.com/FedericoFi/ARIES-FireSimulator/assets/29597412/b7634b16-43f3-4fd3-b13a-868f853ed8c5)
-![image](https://github.com/FedericoFi/ARIES-FireSimulator/assets/29597412/a3034ff9-6f0f-43fe-987d-7f03ff788b84) ![image](https://github.com/FedericoFi/ARIES-FireSimulator/assets/29597412/00d66b89-2ec3-46ab-801b-211ea6629d32)
-
+<p style="text-align: center;"><img src="https://github.com/FedericoFi/ARIES-FireSimulator/assets/29597412/a3034ff9-6f0f-43fe-987d-7f03ff788b84" height="100"><img src="https://github.com/FedericoFi/ARIES-FireSimulator/assets/29597412/00d66b89-2ec3-46ab-801b-211ea6629d32" height="200"></p>
 
 
 # Fire Simulator and drone monitoring system for the ARIES project
